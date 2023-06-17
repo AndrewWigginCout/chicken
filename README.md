@@ -11,3 +11,6 @@ HTML 5 provides multimedia functionality to play mp3 files. I have authored JS c
 The app is a simple node web server. It listens to requests, and uses the requested path to either serve up static files or to dynamically generate directery listings for directories. The key function is directery_listing. It dynamically generates an HTML 'file' with the requisite JS to allow the browser to play the contents of the given directory.
 
 Further development goals are to use the express library, to make the code a bit cleaner and also to allow the hosting of multiple directories in a virtual directory composition.
+
+To run the app, use Node.
+```node server.js```
