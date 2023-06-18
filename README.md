@@ -12,5 +12,6 @@ The app is a simple node web server. It listens to requests, and uses the reques
 
 Further development goals are to use the express library, to make the code a bit cleaner and also to allow the hosting of multiple directories in a virtual directory composition.
 
-To run the app, use Node.
+To run the app, use Node. This app has NOT been tested on Windows! There may exist some issues relating to the path seperator difference. For this app to do anything on your machine make sure you configure it. Set roots to actual directories with media files. Right now the app should only work in virtual directory mode, so don't be surprised if it crashes if roots does not have more than one property.
+
 ```node server.js```
